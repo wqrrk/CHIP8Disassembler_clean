@@ -1,0 +1,23 @@
+Running SwiftFormat...
+(lint mode - no files will be changed.)
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8Disassembler/main.swift:6:1: error: (indent) Indent code in accordance with the scope level.
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8Disassembler/main.swift:6:1: error: (trailingSpace) Remove trailing space at end of a line.
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8Disassembler/main.swift:22:1: error: (elseOnSameLine) Place else, catch or while keyword in accordance with current style (same or next line).
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8Disassembler/main.swift:22:1: error: (indent) Indent code in accordance with the scope level.
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8Disassembler/main.swift:22:1: error: (wrapMultilineStatementBraces) Wrap the opening brace of multiline statements.
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8Disassembler/ROMLoader.swift:20:1: error: (blankLinesAtStartOfScope) Remove leading blank line at the start of a scope.
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8Disassembler/Disassembler.swift:11:1: error: (blankLinesAtStartOfScope) Remove leading blank line at the start of a scope.
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8Disassembler/ROMLoader.swift:20:1: error: (enumNamespaces) Convert types used for hosting only static members into enums (an empty enum is the canonical way to create a namespace in Swift as it can't be instantiated).
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8Disassembler/Disassembler.swift:11:1: error: (enumNamespaces) Convert types used for hosting only static members into enums (an empty enum is the canonical way to create a namespace in Swift as it can't be instantiated).
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8Disassembler/Disassembler.swift:17:1: error: (blankLinesAtStartOfScope) Remove leading blank line at the start of a scope.
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8DisassemblerTests/DecoderTests.swift:1:1: error: (sortImports) Sort and group import statements.
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8DisassemblerTests/DecoderTests.swift:2:1: error: (sortImports) Sort and group import statements.
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8DisassemblerTests/DecoderTests.swift:4:1: error: (blankLinesAtStartOfScope) Remove leading blank line at the start of a scope.
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8DisassemblerTests/DecoderTests.swift:59:1: error: (trailingCommas) Add or remove trailing commas in comma-separated lists.
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8Disassembler/InstructionDecoder.swift:3:1: error: (blankLinesAtStartOfScope) Remove leading blank line at the start of a scope.
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8Disassembler/InstructionDecoder.swift:3:1: error: (enumNamespaces) Convert types used for hosting only static members into enums (an empty enum is the canonical way to create a namespace in Swift as it can't be instantiated).
+/Users/wark/Documents/code/xcode/CHIP8Disassembler/CHIP8Disassembler/InstructionDecoder.swift:16:1: error: (blankLinesAtStartOfScope) Remove leading blank line at the start of a scope.
+warning: No Swift version was specified, so some formatting features were disabled. Specify the version of Swift you are using with the --swift-version option, or by adding a .swift-version file to your project.
+SwiftFormat completed in 0.02s.
+Source input did not pass lint check.
+5/5 files require formatting, 1 file skipped.

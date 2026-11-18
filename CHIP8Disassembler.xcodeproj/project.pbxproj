@@ -6,6 +6,16 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		577AE1DE30ADD2AE0062F6E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577AE1AB30ADD0600062F6E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577AE1B230ADD0600062F6E0;
+			remoteInfo = CHIP8Disassembler;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		577AE1B130ADD0600062F6E0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,18 +29,44 @@
 
 /* Begin PBXFileReference section */
 		577AE1B330ADD0600062F6E0 /* CHIP8Disassembler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CHIP8Disassembler; sourceTree = BUILT_PRODUCTS_DIR; };
+		577AE1CC30ADD16F0062F6E0 /* CHIP8DisassemblerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHIP8DisassemblerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		577AE1E430ADD3260062F6E0 /* Exceptions for "CHIP8Disassembler" folder in "CHIP8DisassemblerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Disassembler.swift,
+				InstructionDecoder.swift,
+				ROMLoader.swift,
+			);
+			target = 577AE1CB30ADD16F0062F6E0 /* CHIP8DisassemblerTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		577AE1B530ADD0600062F6E0 /* CHIP8Disassembler */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				577AE1E430ADD3260062F6E0 /* Exceptions for "CHIP8Disassembler" folder in "CHIP8DisassemblerTests" target */,
+			);
 			path = CHIP8Disassembler;
+			sourceTree = "<group>";
+		};
+		577AE1CD30ADD16F0062F6E0 /* CHIP8DisassemblerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CHIP8DisassemblerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		577AE1B030ADD0600062F6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		577AE1C930ADD16F0062F6E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
@@ -42,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				577AE1B530ADD0600062F6E0 /* CHIP8Disassembler */,
+				577AE1CD30ADD16F0062F6E0 /* CHIP8DisassemblerTests */,
 				577AE1B430ADD0600062F6E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				577AE1B330ADD0600062F6E0 /* CHIP8Disassembler */,
+				577AE1CC30ADD16F0062F6E0 /* CHIP8DisassemblerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +113,27 @@
 			productReference = 577AE1B330ADD0600062F6E0 /* CHIP8Disassembler */;
 			productType = "com.apple.product-type.tool";
 		};
+		577AE1CB30ADD16F0062F6E0 /* CHIP8DisassemblerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577AE1D030ADD16F0062F6E0 /* Build configuration list for PBXNativeTarget "CHIP8DisassemblerTests" */;
+			buildPhases = (
+				577AE1C830ADD16F0062F6E0 /* Sources */,
+				577AE1C930ADD16F0062F6E0 /* Frameworks */,
+				577AE1CA30ADD16F0062F6E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				577AE1DF30ADD2AE0062F6E0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				577AE1CD30ADD16F0062F6E0 /* CHIP8DisassemblerTests */,
+			);
+			name = CHIP8DisassemblerTests;
+			productName = CHIP8DisassemblerTests;
+			productReference = 577AE1CC30ADD16F0062F6E0 /* CHIP8DisassemblerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -86,6 +145,9 @@
 				LastUpgradeCheck = 2710;
 				TargetAttributes = {
 					577AE1B230ADD0600062F6E0 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					577AE1CB30ADD16F0062F6E0 = {
 						CreatedOnToolsVersion = 27.1;
 					};
 				};
@@ -105,9 +167,18 @@
 			projectRoot = "";
 			targets = (
 				577AE1B230ADD0600062F6E0 /* CHIP8Disassembler */,
+				577AE1CB30ADD16F0062F6E0 /* CHIP8DisassemblerTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		577AE1CA30ADD16F0062F6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		577AE1AF30ADD0600062F6E0 /* Sources */ = {
@@ -115,7 +186,20 @@
 			files = (
 			);
 		};
+		577AE1C830ADD16F0062F6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		577AE1DF30ADD2AE0062F6E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577AE1B230ADD0600062F6E0 /* CHIP8Disassembler */;
+			targetProxy = 577AE1DE30ADD2AE0062F6E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		577AE1B830ADD0600062F6E0 /* Debug configuration for PBXProject "CHIP8Disassembler" */ = {
@@ -264,6 +348,42 @@
 			};
 			name = Release;
 		};
+		577AE1D130ADD16F0062F6E0 /* Debug configuration for PBXNativeTarget "CHIP8DisassemblerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464F8795BQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moskvin.CHIP8DisassemblerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		577AE1D230ADD16F0062F6E0 /* Release configuration for PBXNativeTarget "CHIP8DisassemblerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464F8795BQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moskvin.CHIP8DisassemblerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -280,6 +400,14 @@
 			buildConfigurations = (
 				577AE1BB30ADD0600062F6E0 /* Debug configuration for PBXNativeTarget "CHIP8Disassembler" */,
 				577AE1BC30ADD0600062F6E0 /* Release configuration for PBXNativeTarget "CHIP8Disassembler" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		577AE1D030ADD16F0062F6E0 /* Build configuration list for PBXNativeTarget "CHIP8DisassemblerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577AE1D130ADD16F0062F6E0 /* Debug configuration for PBXNativeTarget "CHIP8DisassemblerTests" */,
+				577AE1D230ADD16F0062F6E0 /* Release configuration for PBXNativeTarget "CHIP8DisassemblerTests" */,
 			);
 			defaultConfigurationName = Release;
 		};
